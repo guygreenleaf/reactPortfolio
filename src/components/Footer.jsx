@@ -10,11 +10,11 @@ import { SiJavascript } from "react-icons/si";
 export function Footer() {
     return (
         <>
-        <footer className= "mt-5" ></footer>
-        <Container fluid={true}>
-            <Row className = "border-top justify-content-between p-3">
-                <Col className="p-0 d-flex justify-content-end" md={3.5} style={{fontFamily: 'Josefin Sans', fontSize: '25px'}}>
-                    Made by Guy Greenleaf with<Col> <FaReact size={28} style={{color: '#00BCD4'}}/> <SiJavascript size={28} /> <FaBootstrap size={28}style={{color: '#533B78'}}/> </Col>
+        <footer className= "mt-5"></footer>
+        <Container fluid={true} style={{position:'fixed', bottom:'0', left:'0'}}>
+            <Row className = "border-top justify-content-between p-3" style={{backgroundColor: '#343A40'}} >
+                <Col className="p-0 d-flex justify-content-end" md={3.5} style={{fontFamily: 'Josefin Sans', fontSize: '20px', color:'white'}}>
+                    Made by Guy Greenleaf with<Col> <FaReact size={26} style={{color: '#00BCD4'}}/> <SiJavascript size={25} style={{color:'yellow'}}  /> <FaBootstrap size={26} style={{color: '#DD8EE9'}}/> </Col>
                 </Col>
             </Row>
         </Container>
