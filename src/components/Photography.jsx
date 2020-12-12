@@ -4,16 +4,11 @@ import bigTree from './imgs/bigTree.jpg';
 
 export function Photography() {
     return (
-        <div>
-            <Card style={{width: '18rem', marginTop: '200px', marginBottom:'90px', marginLeft:'200px' }}>
-            <Card.Img variant="top" src={bigTree} style={{border: '20'}} />
-            <Card.Body>
-                <Card.Title>Card Title</Card.Title>
-                <Card.Text>
-                Some quick example text to build on the card title and make up the bulk of
-                the card's content.
-                </Card.Text>
-            </Card.Body>
+        //CREATE "Photography" TEXT IMAGE PNG, OVERLAY IT ON CARD, TRANSITION IT ALL IN WITH FADE
+        //Pog
+        <div style={{marginBottom:'200px', marginTop:'200px', marginLeft:'45px'}}>
+            <Card style={{position:'relative', width: '15rem', boxShadow: '5px 5px 5px black', border:'24px', borderStyle:'round'}}>
+            <Card.Img variant="top" src={bigTree}  />
             </Card>
         </div>
     )

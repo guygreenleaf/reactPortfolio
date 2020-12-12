@@ -12,7 +12,7 @@ export function Footer() {
         <>
         <footer className= "mt-5"></footer>
         <Container fluid={true} >
-            <Row className = "border-top justify-content-between p-3" style={{backgroundColor: '#343A40'}} >
+            <Row className = "border-top justify-content-between p-3" style={{backgroundColor: '#343A40', position: 'sticky'}} >
                 <Col className="p-0 d-flex justify-content-end" md={6} style={{fontFamily: 'Josefin Sans', fontSize: '20px', color:'white'}}>
                     Made by Guy Greenleaf with<Col> <FaReact size={22} style={{color: '#00BCD4'}}/> <SiJavascript size={22} style={{color:'yellow'}}  /> <FaBootstrap size={22} style={{color: '#DD8EE9'}}/> <FaYarn size={22} style={{color: '#2C8EBB'}}/> </Col>
                 </Col>

@@ -9,14 +9,12 @@ import {Photography} from './components/Photography'
 
 function App() {
   return (
-    <div className="App">
+    <div className="App" style={{backgroundColor: '#F2F2F0'}}>
     <NavigationBar/>
 
-    {/* <Photography></Photography> */}
-
-
+    <Photography></Photography>
+    
     <Footer></Footer>
-
 
     </div>
 
