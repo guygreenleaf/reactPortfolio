@@ -6,11 +6,10 @@ import {FaReact, FaBootstrap, FaYarn} from 'react-icons/fa';
 import { SiJavascript } from "react-icons/si";
 
 
-// style={{position:'fixed', bottom:'0', left:'0'}}
 export function Footer() {
     return (
         <>
-        <footer className= "mt-5"></footer>
+        <footer className= "mt-5">
         <Container fluid={true} >
             <Row className = "border-top justify-content-between p-3" style={{backgroundColor: '#343A40', position: 'sticky'}} >
                 <Col className="p-0 d-flex justify-content-end" md={6} style={{fontFamily: 'Josefin Sans', fontSize: '20px', color:'white'}}>
@@ -18,6 +17,7 @@ export function Footer() {
                 </Col>
             </Row>
         </Container>
+        </footer>
         </>
     );
 }

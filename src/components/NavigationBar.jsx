@@ -19,9 +19,6 @@ export function NavigationBar() {
           <Navbar.Toggle className="border-0" aria-controls="basic-navbar-nav" style={{backgroundColor: '#AEAFB5'}}/>
           <Navbar.Collapse id="basic-navbar-nav">
             <Nav className="mr-auto font-weight-bold">
-              <Nav.Link href="#resume" style={{color:'white'}} onClick={changeColor}>Resume</Nav.Link>
-              <Nav.Link href="#github" style={{color:'white'}} onClick={changeColor}>Github</Nav.Link>
-              <Nav.Link href='#contact' style={{color:'white'}} onClick={changeColor}>Contact</Nav.Link>
             </Nav>
           </Navbar.Collapse>
         </Navbar>
