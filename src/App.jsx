@@ -10,6 +10,7 @@ import {Github} from './components/Github'
 import {Contact} from './components/Contact'
 import {Introduction} from './components/Introduction'
 
+
 function App() {
   return (
     <div className="App" style={{backgroundColor: '#9DA39F'}}>
@@ -20,11 +21,14 @@ function App() {
     </div>
 
 
-
-      <div style={{display:'flex', justifyContent: 'center', marginLeft:'125px', marginRight:'125px', marginTop:'200px', marginBottom: '200px'}}>
+      <div style={{display:'flex', justifyContent:'center', marginTop:'200px', marginBottom: '200px'}}>
       <Resume></Resume>
       <Github></Github>
       <Contact></Contact>
+
+      {/* <Resume></Resume>
+      <Github></Github>
+      <Contact></Contact> */}
       </div>
 
 

@@ -1,26 +1,36 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
-import citylights from './imgs/citylights.jpg';
-import FadeIn from 'react-fade-in';
+import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 import "mdbreact/dist/css/mdb.css";
 
-
-
-export function Contact() {
-    return (
-                
-        //CREATE "Photography" TEXT IMAGE PNG, OVERLAY IT ON CARD, TRANSITION IT ALL IN WITH FADE
-        <div className="container-fluid d-flex justify-content-center" >
-
-        <FadeIn transitionDuration='1100'>
-
+export const Contact = () => {
+  return (
+    <MDBRow>
+      <MDBCol>
+        <MDBCard
+          className='card-image z-depth-4 bouncing hover zoom'
+          style={{ border:'2px black', borderRadius:'40px',
+            backgroundImage:
+            "url('https://i.imgur.com/8eyl5HC.jpg')",
+            cursor:
+            "pointer"
+          }}
+        >
+          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
             <div>
-            <Card className="z-depth-4 bouncing hover zoom" style={{height: 'auto', width: '15rem', borderRadius: '8px', backgroundColor:'#8796AD', cursor: 'pointer'}}>            
-                <Card.Img style={{display: 'flex', borderRadius: '8px', height:'365px'}} variant="top" src={citylights}/>       
-            </Card>
-            </div>
 
-        </FadeIn>
-        </div>
-    )
+              <MDBCardTitle tag='h3' className='pt-2'>
+                <strong style={{textDecoration:'underline'}}>Contact</strong>
+              </MDBCardTitle>
+
+              <div>
+              <p>
+                Click here to contact me
+              </p>
+              </div>
+            </div>
+          </div>
+        </MDBCard>
+      </MDBCol>
+    </MDBRow>
+  )
 }
