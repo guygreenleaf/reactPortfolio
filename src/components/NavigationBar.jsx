@@ -1,5 +1,6 @@
 import {Navbar, Nav} from 'react-bootstrap'
 import React from 'react'
+import FadeIn from 'react-fade-in'
 
 
 
@@ -11,7 +12,8 @@ export function NavigationBar() {
   }
 
     return (
-        <div>
+      <div>
+        <FadeIn transitionDuration='750'>
         <Navbar bg="dark" expand="md" className= "border-bottom" fluid={true} >
           <Navbar.Brand style={{fontFamily: 'Arvo', fontSize: '22px', color: 'white'}} id='tester'>Guy Greenleaf</Navbar.Brand>
           <Navbar.Toggle className="border-0" aria-controls="basic-navbar-nav" style={{backgroundColor: '#AEAFB5'}}/>
@@ -23,7 +25,8 @@ export function NavigationBar() {
             </Nav>
           </Navbar.Collapse>
         </Navbar>
-        </div>
+        </FadeIn>
+      </div>
     )
 }
 
