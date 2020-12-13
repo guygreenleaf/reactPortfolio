@@ -6,11 +6,6 @@ import FadeIn from 'react-fade-in'
 
 export function NavigationBar() {
 
-  function changeColor(e){
-    e.preventDefault();
-    e.target.style.color='grey'
-  }
-
     return (
       <div>
         <FadeIn transitionDuration='750'>

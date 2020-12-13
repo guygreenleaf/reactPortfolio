@@ -1,6 +1,7 @@
 import './App.scss'
 import React from 'react';
 import 'bootstrap/scss/bootstrap.scss'; 
+import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 
 import {NavigationBar} from './components/NavigationBar'
@@ -19,10 +20,10 @@ function App() {
     <div>
     <Introduction></Introduction>
     </div>
-
-
       <div style={{display:'flex', justifyContent:'center', marginTop:'200px', marginBottom: '200px'}}>
+ 
       <Resume></Resume>
+    
       <Github></Github>
       <Contact></Contact>
 

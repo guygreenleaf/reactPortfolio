@@ -1,11 +1,13 @@
 import React from 'react';
 import { MDBCard, MDBCardTitle, MDBBtn, MDBRow, MDBCol, MDBIcon } from 'mdbreact';
 import "mdbreact/dist/css/mdb.css";
+import FadeIn from 'react-fade-in';
 
 export const Github = () => {
   return (
     <MDBRow>
       <MDBCol>
+      <FadeIn>
         <MDBCard
           className='card-image z-depth-4 bouncing hover zoom'
           style={{ border:'2px black', borderRadius:'40px',
@@ -31,6 +33,7 @@ export const Github = () => {
             </div>
           </div>
         </MDBCard>
+        </FadeIn>
       </MDBCol>
     </MDBRow>
   )
