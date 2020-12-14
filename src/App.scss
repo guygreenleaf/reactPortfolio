@@ -27,3 +27,16 @@ html {
       transform: translate3d(0, -9px, 0);
     }
   }
+
+
+/* Ripple effect */
+/* Ripple effect */
+.ripple {
+  background-position: center;
+  transition: background 0.9s;
+}
+.ripple:active {
+  background-color: gray;
+  background-size: 100%;
+  transition: background 0s;
+}

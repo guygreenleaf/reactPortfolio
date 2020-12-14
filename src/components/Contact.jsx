@@ -17,7 +17,7 @@ export const Contact = () => {
             backgroundSize:'cover', 
             backgroundPosition:'center'
           }}>
-          <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
+          <div className='ripple text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
             <div>
               <MDBCardTitle tag='h3' className='pt-2'>
                 <strong style={{margin:'25px'}}>Contact</strong>

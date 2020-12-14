@@ -15,7 +15,7 @@ export function Introduction() {
             <h1 style={{fontFamily:'Arvo'}}>Hey!</h1>
                 <h2 style={{fontFamily:'Arvo', fontSize:'22px', letterSpacing:'1px'}}>
                 My name's Guy and I'm a software engineer and Computer Science student at Sonoma State University.
-                On this page you'll find links to my resume and Github.
+                On this page you'll find links to my resume, github, and a contact form. I'm primarily interested in the UI/Frontend world.
                 </h2>
             </MDBContainer>
             </MDBRow>

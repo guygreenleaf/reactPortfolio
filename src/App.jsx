@@ -10,7 +10,6 @@ import {Github} from './components/Github'
 import {Contact} from './components/Contact'
 import {Introduction} from './components/Introduction'
 
-
 function App() {
   return (
     <div className="App" style={{backgroundColor: '#9DA39F', backgroundImage:'url("https://i.imgur.com/bQFIFU6.jpg")', backgroundRepeat:'no-repeat', WebkitBackgroundSize:'100%', backgroundSize:'cover', backgroundPosition:'center'}}>
@@ -22,6 +21,7 @@ function App() {
 
       <div className="d-flex justify-content-center mx-auto" style={{ marginTop:'200px', marginBottom: '200px', marginRight:'200px', flexWrap: 'wrap', alignItems: 'flex-start'}}>
       <div style={{marginRight:'60px', marginBottom:'50px'}}>
+      
       <Resume></Resume>
       </div>
 
@@ -34,6 +34,8 @@ function App() {
       </div>
 
       </div> 
+
+
 
 
 
