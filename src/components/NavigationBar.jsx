@@ -1,29 +1,22 @@
-import {Navbar, Nav} from 'react-bootstrap'
+import {MDBContainer, MDBRow, MDBCol} from 'mdbreact'
 import React from 'react'
-
+import FadeIn from 'react-fade-in'
 
 
 export function NavigationBar() {
 
-  function changeColor(e){
-    e.preventDefault();
-    e.target.style.color='grey'
-  }
-
     return (
-        <div>
-        <Navbar bg="dark" expand="md" className= "border-bottom" fluid={true} >
-          <Navbar.Brand style={{fontFamily: 'Arvo', fontSize: '22px', color: 'white'}} id='tester'>Guy Greenleaf</Navbar.Brand>
-          <Navbar.Toggle className="border-0" aria-controls="basic-navbar-nav" style={{backgroundColor: '#AEAFB5'}}/>
-          <Navbar.Collapse id="basic-navbar-nav">
-            <Nav className="mr-auto font-weight-bold">
-              <Nav.Link href="#resume" style={{color:'white'}} onClick={changeColor}>Resume</Nav.Link>
-              <Nav.Link href="#github" style={{color:'white'}} onClick={changeColor}>Github</Nav.Link>
-              <Nav.Link href='#contact' style={{color:'white'}} onClick={changeColor}>Contact</Nav.Link>
-            </Nav>
-          </Navbar.Collapse>
-        </Navbar>
-        </div>
+      <header>
+      <MDBContainer fluid>
+        <FadeIn transitionDuration='850'>
+            <MDBRow className = "border-bottom p-3" style={{backgroundColor: '#343A40'}} >
+                <MDBCol style={{fontFamily: 'Josefin Sans', fontSize: '32px', color:'white'}}>
+                    Guy Greenleaf
+                </MDBCol>
+            </MDBRow>
+        </FadeIn>
+      </MDBContainer>
+      </header>
     )
 }
 

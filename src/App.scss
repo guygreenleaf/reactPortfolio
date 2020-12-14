@@ -1,5 +1,7 @@
 @import url('https://fonts.googleapis.com/css?family=Josefin+Sans');
 @import url('https://fonts.googleapis.com/css2?family=Arvo&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Crimson+Text:ital,wght@1,600&display=swap');
+
 html {
     -webkit-box-sizing: border-box;
             box-sizing: border-box;
@@ -9,4 +11,19 @@ html {
             box-sizing: inherit;
   }
 
-.Navbar .Nav .Link{font-size: 1px;}
+.Navbar .Nav .Link{
+  font-size: 1px;
+}
+
+
+.bouncing {
+  animation-duration: 4s;
+  animation-name: bouncing;
+  animation-iteration-count: infinite;
+}
+@keyframes bouncing {
+    50% {
+      animation-timing-function: cubic-bezier(0.755, 0.050, 0.655, 0.060);
+      transform: translate3d(0, -9px, 0);
+    }
+  }
