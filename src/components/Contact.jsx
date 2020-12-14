@@ -20,7 +20,7 @@ export const Contact = () => {
           <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
             <div>
               <MDBCardTitle tag='h3' className='pt-2'>
-                <strong style={{textDecoration:'underline'}}>Contact</strong>
+                <strong>Contact</strong>
               </MDBCardTitle>
               <div>
               <p>

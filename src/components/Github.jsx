@@ -10,7 +10,7 @@ export const Github = () => {
           <div className='text-white text-center d-flex rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
             <div>
               <MDBCardTitle tag='h3' className='pt-2'>
-                <strong style={{textDecoration:'underline'}}>Github</strong>
+                <strong>Github</strong>
               </MDBCardTitle>
               <div>
               <p>
