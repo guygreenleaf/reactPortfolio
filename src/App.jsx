@@ -1,7 +1,6 @@
 import './App.scss'
 import React from 'react';
 import 'bootstrap/scss/bootstrap.scss'; 
-import { MDBMask, MDBView, MDBContainer, MDBRow, MDBCol } from "mdbreact";
 
 
 import {NavigationBar} from './components/NavigationBar'
@@ -14,23 +13,27 @@ import {Introduction} from './components/Introduction'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: '#9DA39F'}}>
+    <div className="App" style={{backgroundColor: '#9DA39F', backgroundImage:'url("https://i.imgur.com/W8b8XKC.jpg")', backgroundRepeat:'no-repeat', WebkitBackgroundSize:'100%', backgroundSize:'cover', backgroundPosition:'center'}}>
     <NavigationBar/>
     
-    <div>
-    <Introduction></Introduction>
-    </div>
-      <div style={{display:'flex', justifyContent:'center', marginTop:'200px', marginBottom: '200px'}}>
- 
-      <Resume></Resume>
-    
-      <Github></Github>
-      <Contact></Contact>
-
-      {/* <Resume></Resume>
-      <Github></Github>
-      <Contact></Contact> */}
+      <div>
+        <Introduction></Introduction>
       </div>
+
+      <div className="d-flex justify-content-center mx-auto" style={{ marginTop:'200px', marginBottom: '200px', marginRight:'200px', flexWrap: 'wrap', alignItems: 'flex-start'}}>
+      <div style={{marginRight:'60px', marginBottom:'50px'}}>
+      <Resume></Resume>
+      </div>
+
+      <div style={{marginBottom:'50px'}}>
+       <Github></Github> 
+       </div>
+
+      <div style={{marginLeft:'60px', marginBottom:'50px'}}>
+      <Contact></Contact>  
+      </div>
+
+      </div> 
 
 
 
