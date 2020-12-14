@@ -13,7 +13,7 @@ import {Introduction} from './components/Introduction'
 
 function App() {
   return (
-    <div className="App" style={{backgroundColor: '#9DA39F', backgroundImage:'url("https://i.imgur.com/W8b8XKC.jpg")', backgroundRepeat:'no-repeat', WebkitBackgroundSize:'100%', backgroundSize:'cover', backgroundPosition:'center'}}>
+    <div className="App" style={{backgroundColor: '#9DA39F', backgroundImage:'url("https://i.imgur.com/bQFIFU6.jpg")', backgroundRepeat:'no-repeat', WebkitBackgroundSize:'100%', backgroundSize:'cover', backgroundPosition:'center'}}>
     <NavigationBar/>
     
       <div>
@@ -34,7 +34,6 @@ function App() {
       </div>
 
       </div> 
-
 
 
 

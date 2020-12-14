@@ -9,7 +9,7 @@ export function NavigationBar() {
       <header>
       <MDBContainer fluid>
         <FadeIn transitionDuration='850'>
-            <MDBRow className = "border-bottom p-3" style={{backgroundColor: '#343A40'}} >
+            <MDBRow className = "border-bottom  p-3" style={{backgroundColor: '#343A40'}} >
                 <MDBCol style={{fontFamily: 'Josefin Sans', fontSize: '32px', color:'white'}}>
                     Guy Greenleaf
                 </MDBCol>

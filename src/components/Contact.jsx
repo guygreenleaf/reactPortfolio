@@ -11,7 +11,7 @@ export const Contact = () => {
           className='card-image z-depth-4 bouncing'
           style={{ border:'2px black', borderRadius:'40px',
             backgroundImage:
-            "url('https://i.imgur.com/8eyl5HC.jpg')",
+            "url('https://i.imgur.com/LwkqGAx.jpg')",
             cursor:
             "pointer",
             backgroundSize:'cover', 
@@ -20,13 +20,9 @@ export const Contact = () => {
           <div className='text-white text-center d-flex align-items-center rgba-black-strong py-5 px-5' style={{border:'2px black', borderRadius:'40px'}} >
             <div>
               <MDBCardTitle tag='h3' className='pt-2'>
-                <strong>Contact</strong>
+                <strong style={{margin:'25px'}}>Contact</strong>
               </MDBCardTitle>
-              <div>
-              <p>
-                Click here to contact me
-              </p>
-              </div>
+
             </div>
           </div>
         </MDBCard>
