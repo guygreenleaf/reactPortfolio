@@ -3,9 +3,13 @@ import { MDBCard, MDBCardTitle,MDBRow, MDBCol} from 'mdbreact';
 import "mdbreact/dist/css/mdb.css";
 import FadeIn from 'react-fade-in';
 
-export const Contact = () => {
-  return (
 
+
+export const Contact = () => {
+
+  
+  return (
+    
       <FadeIn>
         <MDBCard
           className='card-image z-depth-4 bouncing'
