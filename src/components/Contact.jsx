@@ -13,7 +13,7 @@ import {
 import "mdbreact/dist/css/mdb.css";
 import FadeIn from "react-fade-in";
 import { useState } from "react";
-import emailjs from 'emailjs-com';
+import emailjs from "emailjs-com";
 
 export const Contact = () => {
   const [toggle, setToggle] = useState(false);
@@ -21,12 +21,14 @@ export const Contact = () => {
   let sendEmail = (e) => {
     e.preventDefault();
 
-    emailjs.sendForm(
+    emailjs
+      .sendForm(
         "service_poglh8t",
         "template_66q5rqu",
         e.target,
         "user_ziDDyTQ1D68VuRcAhcIWJ"
-      ).then(
+      )
+      .then(
         (result) => {
           console.log(result.text);
         },
@@ -35,7 +37,7 @@ export const Contact = () => {
         }
       );
     e.target.reset();
-  }
+  };
 
   return (
     <FadeIn>
@@ -69,9 +71,9 @@ export const Contact = () => {
             <MDBRow>
               <MDBCol>
                 <form onSubmit={sendEmail}>
-                  <p className="h4 text-center mb-4">
+                  {/* <p className="h4 text-center mb-4">
                     Please allow me up to 24 hours to respond
-                  </p>
+                  </p> */}
                   <label
                     htmlFor="defaultFormContactNameEx"
                     style={{ color: "black" }}
