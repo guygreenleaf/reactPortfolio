@@ -5,7 +5,6 @@ import {
   MDBRow,
   MDBCol,
   MDBModal,
-  MDBModalBody,
   MDBContainer,
   MDBBtn,
   MDBIcon,

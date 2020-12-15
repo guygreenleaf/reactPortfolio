@@ -1,5 +1,5 @@
 import React from "react";
-import { MDBCard, MDBCardTitle, MDBView, MDBBtn } from "mdbreact";
+import { MDBCard, MDBCardTitle} from "mdbreact";
 import "mdbreact/dist/css/mdb.css";
 import FadeIn from "react-fade-in";
 import pdf from '../pdfs/resume.pdf'
