@@ -44,7 +44,7 @@ export function Introduction() {
                 My name's Guy and I'm a software engineer and Computer Science
                 student at Sonoma State University. On this page you'll find
                 links to my resume, github, and a contact form. I'm primarily
-                interested in the UI/Frontend world.
+                interested in the UI/front-end world.
               </h2>
             </MDBContainer>
           </MDBRow>
